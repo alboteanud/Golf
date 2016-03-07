@@ -1,0 +1,118 @@
+<GAME>
+	<CHAPTER
+	    dir_path="chapters/chapter_1/"
+	    bodies_data_file="body_data"
+	    levels_dir_name = "levels/"
+	    packer_dir_name = "packer"
+	    accessories_dir_name = "accessories/"
+	    audio_dir_name = "audio/"
+	    game_music="game_music.mp3"
+	    level_select_music = "lvl_select_music.mp3"
+	    title_image = "chapter_one.png"
+	    bg_image = "chapter_one_bg.png"
+	    level_lock_img = "lock_img.png">
+		<LEVEL file_name="level_1.tmx" level_icon = "level_1.png" level_name="test"/>
+		<LEVEL file_name="level_2.tmx" level_icon = "level_2.png" level_name="test"/>
+		<LEVEL file_name="level_3.tmx" level_icon = "level_3.png" level_name="test"/>
+		<LEVEL file_name="level_4.tmx" level_icon = "level_4.png" level_name="test"/>
+		<LEVEL file_name="level_5.tmx" level_icon = "level_5.png" level_name="test"/>
+		<LEVEL file_name="level_6.tmx" level_icon = "level_6.png" level_name="test"/>
+		<LEVEL file_name="level_7.tmx" level_icon = "level_7.png" level_name="test"/>
+		<LEVEL file_name="level_8.tmx" level_icon = "level_8.png" level_name="test"/>
+		<LEVEL file_name="level_9.tmx" level_icon = "level_9.png" level_name="test"/>
+		<LEVEL file_name="level_10.tmx" level_icon = "level_10.png" level_name="test"/>
+		<LEVEL file_name="level_11.tmx" level_icon = "level_11.png" level_name="test"/>
+		<LEVEL file_name="level_12.tmx" level_icon = "level_12.png" level_name="test"/>
+		<LEVEL file_name="level_13.tmx" level_icon = "level_13.png" level_name="test"/>
+		<LEVEL file_name="level_14.tmx" level_icon = "level_14.png" level_name="test"/>
+		<LEVEL file_name="level_15.tmx" level_icon = "level_15.png" level_name="test"/>
+		<LEVEL file_name="level_16.tmx" level_icon = "level_16.png" level_name="test"/>
+		<LEVEL file_name="level_17.tmx" level_icon = "level_17.png" level_name="test"/>
+		<LEVEL file_name="level_18.tmx" level_icon = "level_18.png" level_name="test"/>
+		<LEVEL file_name="level_19.tmx" level_icon = "level_19.png" level_name="test"/>
+		<LEVEL file_name="level_20.tmx" level_icon = "level_20.png" level_name="test"/>
+		<LEVEL file_name="level_21.tmx" level_icon = "level_21.png" level_name="test"/>
+		<LEVEL file_name="level_22.tmx" level_icon = "level_22.png" level_name="test"/>
+		<LEVEL file_name="level_23.tmx" level_icon = "level_23.png" level_name="test"/>
+		<LEVEL file_name="level_24.tmx" level_icon = "level_24.png" level_name="test"/>
+	</CHAPTER>
+	<CHAPTER
+	    dir_path="chapters/chapter_2/"
+	    bodies_data_file="body_data"
+	    levels_dir_name = "levels/"
+	    packer_dir_name = "packer"
+	    audio_dir_name = "audio/"
+	    game_music="game_music.mp3"
+	    level_select_music = "lvl_select_music.mp3"
+	    accessories_dir_name = "accessories/"
+	    title_image = "chapter_two.png"
+	    bg_image = "chapter_two_bg.png"
+	    level_lock_img = "lock_img.png">
+		<LEVEL file_name="level_1.tmx" level_icon = "level_1.png" level_name="test"/>
+		<LEVEL file_name="level_2.tmx" level_icon = "level_2.png" level_name="test"/>
+		<LEVEL file_name="level_3.tmx" level_icon = "level_3.png" level_name="test"/>
+		<LEVEL file_name="level_4.tmx" level_icon = "level_4.png" level_name="test"/>
+		<LEVEL file_name="level_5.tmx" level_icon = "level_5.png" level_name="test"/>
+		<LEVEL file_name="level_6.tmx" level_icon = "level_6.png" level_name="test"/>
+		<LEVEL file_name="level_7.tmx" level_icon = "level_7.png" level_name="test"/>
+		<LEVEL file_name="level_8.tmx" level_icon = "level_8.png" level_name="test"/>
+		<LEVEL file_name="level_9.tmx" level_icon = "level_9.png" level_name="test"/>
+		<LEVEL file_name="level_10.tmx" level_icon = "level_10.png" level_name="test"/>
+		<LEVEL file_name="level_11.tmx" level_icon = "level_11.png" level_name="test"/>
+		<LEVEL file_name="level_12.tmx" level_icon = "level_12.png" level_name="test"/>
+		<LEVEL file_name="level_13.tmx" level_icon = "level_13.png" level_name="test"/>
+		<LEVEL file_name="level_14.tmx" level_icon = "level_14.png" level_name="test"/>
+		<LEVEL file_name="level_15.tmx" level_icon = "level_15.png" level_name="test"/>
+		<LEVEL file_name="level_16.tmx" level_icon = "level_16.png" level_name="test"/>
+		<LEVEL file_name="level_17.tmx" level_icon = "level_17.png" level_name="test"/>
+		<LEVEL file_name="level_18.tmx" level_icon = "level_18.png" level_name="test"/>
+		<LEVEL file_name="level_19.tmx" level_icon = "level_19.png" level_name="test"/>
+		<LEVEL file_name="level_20.tmx" level_icon = "level_20.png" level_name="test"/>
+		<LEVEL file_name="level_21.tmx" level_icon = "level_21.png" level_name="test"/>
+		<LEVEL file_name="level_22.tmx" level_icon = "level_22.png" level_name="test"/>
+		<LEVEL file_name="level_23.tmx" level_icon = "level_23.png" level_name="test"/>
+		<LEVEL file_name="level_24.tmx" level_icon = "level_24.png" level_name="test"/>
+	</CHAPTER>
+
+	<CHAPTER
+		dir_path="chapters/chapter_3/"
+		bodies_data_file="body_data"
+		levels_dir_name = "levels/"
+		packer_dir_name = "packer"
+		audio_dir_name = "audio/"
+		game_music="game_music.mp3"
+		level_select_music = "lvl_select_music.mp3"
+		accessories_dir_name = "accessories/"
+		title_image = "chapter_two.png"
+		bg_image = "chapter_two_bg.png"
+		level_lock_img = "lock_img.png">
+
+        <LEVEL file_name="level_1.tmx" level_icon = "level_1.png" level_name="test"/>
+		<LEVEL file_name="level_2.tmx" level_icon = "level_2.png" level_name="test"/>
+		<LEVEL file_name="level_3.tmx" level_icon = "level_3.png" level_name="test"/>
+		<LEVEL file_name="level_4.tmx" level_icon = "level_4.png" level_name="test"/>
+		<LEVEL file_name="level_5.tmx" level_icon = "level_5.png" level_name="test"/>
+		<LEVEL file_name="level_6.tmx" level_icon = "level_6.png" level_name="test"/>
+		<LEVEL file_name="level_7.tmx" level_icon = "level_7.png" level_name="test"/>
+		<LEVEL file_name="level_8.tmx" level_icon = "level_8.png" level_name="test"/>
+		<LEVEL file_name="level_9.tmx" level_icon = "level_9.png" level_name="test"/>
+		<LEVEL file_name="level_10.tmx" level_icon = "level_10.png" level_name="test"/>
+		<LEVEL file_name="level_11.tmx" level_icon = "level_11.png" level_name="test"/>
+		<LEVEL file_name="level_12.tmx" level_icon = "level_12.png" level_name="test"/>
+		<LEVEL file_name="level_13.tmx" level_icon = "level_13.png" level_name="test"/>
+		<LEVEL file_name="level_14.tmx" level_icon = "level_14.png" level_name="test"/>
+		<LEVEL file_name="level_15.tmx" level_icon = "level_15.png" level_name="test"/>
+		<LEVEL file_name="level_16.tmx" level_icon = "level_16.png" level_name="test"/>
+		<LEVEL file_name="level_17.tmx" level_icon = "level_17.png" level_name="test"/>
+		<LEVEL file_name="level_18.tmx" level_icon = "level_18.png" level_name="test"/>
+		<LEVEL file_name="level_19.tmx" level_icon = "level_19.png" level_name="test"/>
+		<LEVEL file_name="level_20.tmx" level_icon = "level_20.png" level_name="test"/>
+		<LEVEL file_name="level_21.tmx" level_icon = "level_21.png" level_name="test"/>
+		<LEVEL file_name="level_22.tmx" level_icon = "level_22.png" level_name="test"/>
+		<LEVEL file_name="level_23.tmx" level_icon = "level_23.png" level_name="test"/>
+		<LEVEL file_name="level_24.tmx" level_icon = "level_24.png" level_name="test"/>
+		<LEVEL file_name="level_25.tmx" level_icon = "level_25.png" level_name="test"/>
+		<LEVEL file_name="level_26.tmx" level_icon = "level_26.png" level_name="test"/>
+	</CHAPTER>
+
+</GAME>

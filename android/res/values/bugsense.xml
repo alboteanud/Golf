@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Testing key -->
+    <string name="bugsense_api_key_testing">8798390d</string>
+    <!-- Release key -->
+    <string name="bugsense_api_key_release">0991c9f7</string>
+
+</resources>

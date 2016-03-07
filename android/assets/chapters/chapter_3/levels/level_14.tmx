@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="39" height="49" tilewidth="32" tileheight="32" nextobjectid="1">
+ <properties>
+  <property name="ball_destroying_indexes" value="8,71,72,73,74,75,102,103,104,105,121,122,123,124,125,126,127,128,129,130,131,132"/>
+  <property name="ball_start_position_x" value="6"/>
+  <property name="ball_start_position_y" value="44"/>
+  <property name="force_applying_indexes" value="10,13,25,28"/>
+  <property name="hole_index" value="55"/>
+  <property name="par" value="12"/>
+  <property name="slow_down_indexes" value="5,87,89,90,106,117"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" spacing="2">
+  <image source="../packer/level2.png" width="512" height="512"/>
+  <tile id="4">
+   <properties>
+    <property name="colision_sound" value="ash.mp3"/>
+    <property name="depth" value="0.2"/>
+    <property name="obstacle_file" value="5.png"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="colision_sound" value="magma_plum.mp3"/>
+    <property name="destroy_position_offset" value="0.2"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="8.png"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="angle" value="62"/>
+    <property name="colision_sound" value="wind.mp3"/>
+    <property name="intensity" value="250"/>
+    <property name="range" value="3"/>
+    <property name="type" value="1"/>
+    <property name="x_first_arm_angle" value="0"/>
+    <property name="x_force_beggining" value="25"/>
+    <property name="y_first_arm_angle" value="18"/>
+    <property name="y_force_beggining" value="28"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="angle" value="45"/>
+    <property name="colision_sound" value="wind.mp3"/>
+    <property name="intensity" value="200"/>
+    <property name="range" value="2"/>
+    <property name="type" value="1"/>
+    <property name="x_first_arm_angle" value="2"/>
+    <property name="x_force_beggining" value="23"/>
+    <property name="y_first_arm_angle" value="17"/>
+    <property name="y_force_beggining" value="26"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="angle" value="62"/>
+    <property name="colision_sound" value="wind.mp3"/>
+    <property name="intensity" value="250"/>
+    <property name="range" value="3"/>
+    <property name="type" value="1"/>
+    <property name="x_first_arm_angle" value="0"/>
+    <property name="x_force_beggining" value="25"/>
+    <property name="y_first_arm_angle" value="18"/>
+    <property name="y_force_beggining" value="28"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="angle" value="40"/>
+    <property name="colision_sound" value="wind.mp3"/>
+    <property name="intensity" value="100"/>
+    <property name="range" value="3"/>
+    <property name="type" value="1"/>
+    <property name="x_first_arm_angle" value="32"/>
+    <property name="x_force_beggining" value="20"/>
+    <property name="y_first_arm_angle" value="8"/>
+    <property name="y_force_beggining" value="10"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="hole_file" value="55.png"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="71.png"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="72.png"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="destroy_position_offset" value="0.05"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="73.png"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="destroy_position_offset" value="0.05"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="74.png"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="destroy_position_offset" value="0.05"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="75.png"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="colision_sound" value="ash.mp3"/>
+    <property name="depth" value="0.2"/>
+    <property name="obstacle_file" value="87.png"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="colision_sound" value="ash.mp3"/>
+    <property name="depth" value="0.2"/>
+    <property name="obstacle_file" value="89.png"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="colision_sound" value="ash.mp3"/>
+    <property name="depth" value="0.2"/>
+    <property name="obstacle_file" value="90.png"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="colision_sound" value="magma_plum.mp3"/>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="102.png"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="103.png"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="colision_sound" value="magma_plum.mp3"/>
+    <property name="destroy_position_offset" value="0.2"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="104.png"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="colision_sound" value="magma_plum.mp3"/>
+    <property name="destroy_position_offset" value="0.2"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="105.png"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="colision_sound" value="ash.mp3"/>
+    <property name="depth" value="0.2"/>
+    <property name="obstacle_file" value="106.png"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="colision_sound" value="ash.mp3"/>
+    <property name="depth" value="0.2"/>
+    <property name="obstacle_file" value="117.png"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="colision_sound" value="magma_plum.mp3"/>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="118.png"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="119.png"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="120.png"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="destroy_position_offset" value="0.3"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="121.png"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="destroy_position_offset" value="0.3"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="122.png"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="destroy_position_offset" value="0.3"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="123.png"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="124.png"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="destroy_position_offset" value="0.3"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="125.png"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="destroy_position_offset" value="0.3"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="126.png"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="destroy_position_offset" value="0.3"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="127.png"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="128.png"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="colision_sound" value="magma_plum.mp3"/>
+    <property name="destroy_position_offset" value="-1"/>
+    <property name="fall_velocity" value="-0.8"/>
+    <property name="obstacle_file" value="129.png"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="39" height="49">
+  <data encoding="base64" compression="zlib">
+   eJzVmctu1EAQRc0ESAKERAQWPEcoG14yCBb8BRIPsQLJQyR+AdhBhPLdlCWXVFxudVXbTmZYXFmKna7Tt7qq256tpmm2/lMt1xj70Oi96MGa9QGYTofrF9HBmnUMbKpNZvu+wWw3RRdA72aOvSe6PoLtPLy8J7qfYFsCxyLwstbDtyQPT0XPCmNFviHzWA81Tj/ndrjq/L2689jagLnWw050zdFqpG/fYJz9GTycWqden9P575ucTFmHc7JZxjk9fDmBTevM+mI9xHX4Q/Q1qd9k7D7ejSTbsYmNefM8/Cn6FejEyVGm7yKb9QY9VL5SjZfu2Xl7bLanMTY2lpdjrz96cUvxMr7ZeF6OvV5mexHzcCob86+2f3j8KxOPeW7nUzMPdnb5WMFbuyes4NkW7kd563lviZ5D7KNBc/RdfNZyR+Orn4+Ir6gXw7XvbYvm7zMBi419MMNl+0rGX+aNx+Z5hlx4LmM1G82jA0Z7hloW2KxnjGuMn5HP6Jmy6VrH+sxwfZrAhTliZ1Cvd9gcZ7n65y6KLokuDznfFu2IdhveD9U75htjK9UFcnv8UR9A7zJsHeTS1gXmv9Sf2P7E9rsatpIXi8Zf/5qb7J5Yw4bnV5ajqC57Puxhy8T/R2y4N9o+Er0fRf0hmpeyaZ1G3kfr157Zce9kPnpcR8Q3xoH+szGVSX2tOS9dEV11xorYSv4jU9Zfq9uiO6K7Da+ziM3jinoXO8uxd6nHoidkPLufZteXckVni8z3hdIZjdVBVOMdiTFWyGZjR+sss2bYtyur0nkyWhc1bIxjSn4z72LZGuicMebIr9UbJ+e6J5/1t+iHhXufHTbbA16RHJ6ldofr6+bf9Yj76yap5velU+fvOGYb3J/CoIp+Z2sTce17U/bZMSyRX+eZwzGMc477Bx/zt14=
+  </data>
+ </layer>
+</map>

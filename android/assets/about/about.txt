@@ -1,0 +1,16 @@
+Golf game
+
+This product uses the following libraries under the specified licenses:
+
+libgdx - Apache License 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Music:
+
+"Life of Riley" Kevin MacLeod (incompetech.com)
+"Drankin Song" Kevin MacLeod (incompetech.com)
+
+All licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/
+
+Enjoy!

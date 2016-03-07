@@ -1,0 +1,23 @@
+
+package com.lutu.golf;
+
+/**
+ * Enumeration of screen types.
+ */
+public enum ScreenType {
+	// @formatter:off
+	SCREEN_SPLASH,
+	SCREEN_MAIN_MENU,
+	SCREEN_ABOUT,
+	SCREEN_OPTIONS,
+	SCREEN_HELP,
+	SCREEN_CHAPTER_SELECTION,
+	SCREEN_LEVEL_SELECTION,
+	SCREEN_GAME,
+	SCREEN_QUIT_DIALOG,
+	SCREEN_GAME_MENU,
+	SCREEN_CLUB_SELECTION,
+	SCREEN_END_LEVEL_DIALOG,
+	SCREEN_LOADING
+	// @formatter:on
+}
